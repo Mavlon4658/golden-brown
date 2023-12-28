@@ -305,13 +305,13 @@ ul {
 }
 
 .apartments_cards .card_item {
-  padding: 40px;
+  padding: 20px;
   border: 1px solid #fff;
   background: rgba(42, 42, 42, 0.03);
 }
 .apartments_cards .card_item_head {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .apartments_cards .card_item_head .star {
   position: absolute;
@@ -354,7 +354,7 @@ ul {
 }
 .apartments_cards .card_item_head .swiper-slide img {
   width: 100%;
-  height: 400px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: -5px;
@@ -392,18 +392,18 @@ ul {
 }
 .apartments_cards .card_item_type {
   color: #161616;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 300;
   line-height: normal;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .apartments_cards .card_item_name {
   color: #161616;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .apartments_cards .card_item ul {
   display: -webkit-box;
@@ -413,12 +413,12 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 10px;
-  margin-bottom: 25px;
+  gap: 8px;
+  margin-bottom: 15px;
 }
 .apartments_cards .card_item ul li {
   color: #161616;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 300;
   line-height: normal;
 }
@@ -594,9 +594,9 @@ ul {
   top: -1px;
   left: -1px;
   border: 1px solid #F6C79C;
-  -moz-opacity: 0.15;
-  -webkit-opacity: 0.15;
-  opacity: 0.15;
+  -moz-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
   -webkit-animation: borderAnimation 1.8s linear infinite;
           animation: borderAnimation 1.8s linear infinite;
 }
@@ -610,7 +610,7 @@ ul {
 }
 .animation_img img {
   width: 600px;
-  height: 400px;
+  height: 380px;
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
@@ -1252,7 +1252,7 @@ header .header_menu.no_active {
 
 .home_card {
   background: url("../images/home_card_fon.webp") center/cover no-repeat;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 .home_card__top {
   display: -webkit-box;
@@ -1264,11 +1264,11 @@ header .header_menu.no_active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 .home_card__top h2 {
   max-width: 406px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .home_card__top p {
   max-width: 586px;
@@ -1286,11 +1286,11 @@ header .header_menu.no_active {
 }
 .home_card__bottom h2 {
   max-width: 405px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .home_card__bottom p {
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
   line-height: normal;
   text-transform: lowercase;
@@ -1298,24 +1298,24 @@ header .header_menu.no_active {
 }
 .home_card p {
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
   line-height: normal;
   text-transform: lowercase;
 }
 
 .apartments {
-  padding: 200px 0 358px;
+  padding: 100px 0 100px;
   background: url("../images/shum_1.png") center/cover no-repeat;
 }
 .apartments_cards {
   overflow: visible;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .consultation {
   background: url("../images/shum_2.png") center/cover no-repeat;
-  padding: 200px 0;
+  padding: 60px 0;
 }
 .consultation__form {
   display: -webkit-box;
@@ -1327,13 +1327,13 @@ header .header_menu.no_active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .consultation__form_img {
-  width: 586px;
+  width: 550px;
 }
 .consultation__form_content {
-  width: 708px;
+  width: 758px;
   padding-top: 12px;
 }
 .consultation__form_content .inputs {
@@ -1344,8 +1344,8 @@ header .header_menu.no_active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 50px;
-  margin-bottom: 50px;
+  gap: 30px;
+  margin-bottom: 30px;
 }
 .consultation__form p {
   color: #424242;
@@ -1374,14 +1374,14 @@ header .header_menu.no_active {
 
 .approach {
   background: url("../images/shum_1.png") center/cover no-repeat;
-  padding: 200px 0 138px;
+  padding: 60px 0 60px;
 }
 .approach .main_title {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .approach_card__item {
   position: relative;
-  height: 500px;
+  height: 450px;
   background: #424242;
   overflow: hidden;
 }
@@ -1502,7 +1502,7 @@ header .header_menu.no_active {
   }
 }
 .top_object {
-  padding: 200px 0;
+  padding: 60px 0;
 }
 .top_object .apartments_cards .card_item .links {
   display: -webkit-box;
@@ -1546,7 +1546,7 @@ header .header_menu.no_active {
   margin-bottom: 100px;
 }
 .galerea .main_img {
-  height: 1080px;
+  height: 700px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1568,7 +1568,7 @@ header .header_menu.no_active {
 }
 .galerea .card_top img {
   width: 50%;
-  height: 513px;
+  height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1584,7 +1584,7 @@ header .header_menu.no_active {
 }
 .galerea .card_bottom {
   width: 100%;
-  height: 513px;
+  height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-transform: translateY(25px);
@@ -1594,18 +1594,18 @@ header .header_menu.no_active {
 
 .investments {
   background: url("../images/shum_3.png") center/cover no-repeat;
-  padding: 200px 0;
+  padding: 60px 0 100px;
   position: relative;
 }
 .investments .bg_1 {
   position: absolute;
-  bottom: 32px;
+  bottom: -125px;
   left: 0;
 }
 .investments .bg_2 {
   position: absolute;
   right: 0;
-  bottom: 258px;
+  bottom: 120px;
 }
 .investments p {
   color: #161616;
@@ -1641,13 +1641,13 @@ header .header_menu.no_active {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  gap: 25px;
-  margin-bottom: 100px;
+  gap: 15px;
+  margin-bottom: 60px;
   padding-right: 62px;
 }
 .investments .text_block ul li {
   color: #161616;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
   line-height: normal;
   padding-left: 35px;
@@ -1685,10 +1685,10 @@ header .header_menu.no_active {
 }
 
 .segment {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 .segment .main_title {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .segment .counter_wrapper {
   position: relative;
@@ -1700,6 +1700,7 @@ header .header_menu.no_active {
   -webkit-transform: translateX(calc(-50% - 50px));
       -ms-transform: translateX(calc(-50% - 50px));
           transform: translateX(calc(-50% - 50px));
+  width: 500px;
 }
 .segment .counter_wrapper .counter_top_block {
   display: -webkit-box;
@@ -1711,7 +1712,7 @@ header .header_menu.no_active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   position: relative;
 }
 .segment .counter_wrapper .counter_bottom_block {
@@ -1728,18 +1729,18 @@ header .header_menu.no_active {
 }
 .segment .counter_wrapper .name {
   color: #424242;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
   margin: 5px;
 }
 .segment .counter_wrapper .name .small {
-  font-size: 60px;
+  font-size: 40px;
 }
 .segment .counter_wrapper .description {
   color: #424242;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
   line-height: normal;
   text-transform: lowercase;
@@ -1763,14 +1764,14 @@ header .header_menu.no_active {
 
 .example {
   background: url("../images/example_bg.webp") center/cover no-repeat;
-  padding: 200px 0 244px;
+  padding: 100px 0 144px;
 }
 .example .main_subtitle {
   color: white;
 }
 .example .main_title {
   color: white;
-  margin-bottom: 144px;
+  margin-bottom: 60px;
 }
 .example .card {
   display: -webkit-box;
@@ -1785,7 +1786,7 @@ header .header_menu.no_active {
 }
 .example .card h2 {
   color: #F6C79C;
-  font-size: 90px;
+  font-size: 70px;
   font-weight: 200;
   line-height: 95%; /* 85.5px */
   text-transform: uppercase;
@@ -1793,14 +1794,14 @@ header .header_menu.no_active {
 }
 .example .card p {
   color: #FFF;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
   line-height: normal;
   text-transform: lowercase;
   max-width: 586px;
 }
 .example .card_top {
-  margin-bottom: 122px;
+  margin-bottom: 100px;
   width: calc(100% + 180px);
   -webkit-transform: translateX(-180px);
       -ms-transform: translateX(-180px);
@@ -1808,10 +1809,10 @@ header .header_menu.no_active {
 }
 
 .contact .main_title {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .contact .main_container {
-  padding: 200px 54px 441px;
+  padding: 100px 54px 441px;
   position: relative;
 }
 .contact .bg {
@@ -1914,7 +1915,7 @@ header .header_menu.no_active {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 856px;
+  height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
@@ -1925,24 +1926,24 @@ header .header_menu.no_active {
 }
 .working .main_title {
   text-align: left;
-  margin-bottom: 83px;
+  margin-bottom: 30px;
 }
 .working .title {
   color: #161616;
   font-family: "Playfair Display", sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .working .description {
   color: #161616;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 300;
   line-height: normal;
   text-transform: lowercase;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   max-width: 708px;
 }
 .working .description.first {
@@ -1951,7 +1952,7 @@ header .header_menu.no_active {
   font-weight: 400;
 }
 .working .description.last {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   max-width: 545px;
 }
 .working .links {
@@ -2097,10 +2098,10 @@ footer .footer_bottom p {
 @media only screen and (max-width: 1650px) {
   .investments .bg_1 {
     width: 600px;
-    bottom: 100px;
+    bottom: 60px;
   }
   .investments .bg_2 {
-    bottom: 320px;
+    bottom: 270px;
     width: 200px;
   }
 }
@@ -2120,10 +2121,10 @@ footer .footer_bottom p {
   }
   .investments .bg_1 {
     width: 500px;
-    bottom: 150px;
+    bottom: 100px;
   }
   .investments .bg_2 {
-    bottom: 700px;
+    bottom: 500px;
     width: 150px;
   }
   .investments p {
