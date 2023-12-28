@@ -56,7 +56,7 @@ ul {
 
 .main_text_golden {
     color: #F6C79C;
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 200;
     line-height: 95%;
     text-transform: uppercase;
@@ -65,7 +65,7 @@ ul {
 .main_title {
     color: #424242;
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 200;
     line-height: normal;
     text-transform: uppercase;
@@ -554,7 +554,9 @@ ul {
     }
 
     img {
-        width: 708px;
+        width: 600px;
+        height: 400px;
+        object-fit: cover;
         position: relative;
     }
 }
@@ -986,17 +988,17 @@ header {
 // Home card
 .home_card {
     background: url('../images/home_card_fon.webp') center/cover no-repeat;
-    padding: 200px 0;
+    padding: 100px 0;
 
     &__top {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 200px;
+        margin-bottom: 70px;
 
         h2 {
             max-width: 406px;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
         }
 
         p {
@@ -1011,7 +1013,7 @@ header {
 
         h2 {
             max-width: 405px;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
         }
 
         p {
