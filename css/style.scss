@@ -491,7 +491,11 @@ ul {
     }
     @keyframes borderAnimation {
         0% {
+            width: -webkit-calc(100% + 2px);
+            width: -moz-calc(100% + 2px);
             width: calc(100% + 2px);
+            height: -webkit-calc(100% + 2px);
+            height: -moz-calc(100% + 2px);
             height: calc(100% + 2px);
             top: -1px;
             left: -1px;
@@ -500,7 +504,11 @@ ul {
             opacity: 0.15;
         }
         33% {
+            width: -webkit-calc(100% + 18px);
+            width: -moz-calc(100% + 18px);
             width: calc(100% + 18px);
+            height: -webkit-calc(100% + 18px);
+            height: -moz-calc(100% + 18px);
             height: calc(100% + 18px);
             top: -9px;
             left: -9px;
@@ -509,7 +517,11 @@ ul {
             opacity: 0.15;
         }
         66% {
+            width: -webkit-calc(100% + 38px);
+            width: -moz-calc(100% + 38px);
             width: calc(100% + 38px);
+            height: -webkit-calc(100% + 38px);
+            height: -moz-calc(100% + 38px);
             height: calc(100% + 38px);
             top: -19px;
             left: -19px;
@@ -518,7 +530,11 @@ ul {
             opacity: 0.1;
         }
         100% {
+            width: -webkit-calc(100% + 58px);
+            width: -moz-calc(100% + 58px);
             width: calc(100% + 58px);
+            height: -webkit-calc(100% + 58px);
+            height: -moz-calc(100% + 58px);
             height: calc(100% + 58px);
             top: -29px;
             left: -29px;
