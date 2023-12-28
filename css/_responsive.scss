@@ -1,3 +1,23 @@
+@media only screen and (max-width: 1450px) {
+    .consultation {
+        position: relative;
+
+        &__form {
+            &_img {
+                position: absolute;
+                right: -89px;
+                opacity: 0.1;
+            }
+
+            &_content {
+                width: 100%;
+                position: relative;
+                padding-top: 0;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1350px) {
     .animation_img {
         @keyframes borderAnimation {
@@ -87,7 +107,83 @@
         margin-bottom: 4px;
     }
 
+    .main_input {
+        padding: 10px 22px;
+        font-size: 10px;
+        height: 22.74px;
+    }
 
+    .main_input_tel {
+        .selected_flag {
+            left: 22px;
+            gap: 6px;
+
+            img {
+                width: 6.7px;
+                height: auto;
+            }
+
+            svg {
+                width: 3px;
+                height: auto;
+            }
+        }
+    
+        .main_input {
+            padding-left: 41px;
+            height: 22.74px;
+        }
+    }
+
+    .main_select {
+        &__subtitle {
+            font-size: 6px;
+            margin-bottom: 5.28px;
+            margin-left: 27.11px;
+        }
+    
+        &__btn {
+            padding: 10px 22px;
+            gap: 6px;
+            height: 22.74px;
+            
+            span {
+                font-size: 10px;
+            }
+        }
+    
+        &__list {
+            padding: 10px 22px;
+    
+            li {
+                font-size: 10px;
+            }
+            
+            li:not(:last-child) {
+                padding-bottom: 6px;
+            }
+    
+            li:not(:first-child) {
+                padding-top: 6px;
+            }
+        }
+    }
+
+    .main_input_money {
+        padding: 10px 22px;
+        font-size: 10px;
+        height: 22.74px;
+    }
+
+    .btn_golden {
+        height: 29.56px;
+        font-size: 8px;
+    }
+    
+    .btn_dark {
+        height: 29.56px;
+        font-size: 8px;
+    }
 
     .apartments_cards {
         .card_item {
@@ -344,5 +440,34 @@
 
     .apartments {
         padding: 48px 0 71px;
+    }
+
+    .consultation {
+        padding: 48px  0 44px;
+
+        &__form {
+            margin-top: 24px;
+
+            &_img {
+                width: 188px;
+            }
+
+            &_content {
+                .inputs {
+                    gap: 22px;
+                    margin-bottom: 22px;
+                }
+            }
+
+            p {
+                font-size: 6px;
+                width: 140px;
+                margin-bottom: 22px;
+            }
+
+            .buttons {
+                gap: 10.91px;
+            }
+        }
     }
 }

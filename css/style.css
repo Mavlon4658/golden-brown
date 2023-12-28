@@ -1434,6 +1434,21 @@ footer .footer_bottom p {
   opacity: 0.703;
 }
 
+@media only screen and (max-width: 1450px) {
+  .consultation {
+    position: relative;
+  }
+  .consultation__form_img {
+    position: absolute;
+    right: -89px;
+    opacity: 0.1;
+  }
+  .consultation__form_content {
+    width: 100%;
+    position: relative;
+    padding-top: 0;
+  }
+}
 @media only screen and (max-width: 1350px) {
   @keyframes borderAnimation {
     0% {
@@ -1505,6 +1520,65 @@ footer .footer_bottom p {
   .main_subtitle {
     font-size: 10px;
     margin-bottom: 4px;
+  }
+  .main_input {
+    padding: 10px 22px;
+    font-size: 10px;
+    height: 22.74px;
+  }
+  .main_input_tel .selected_flag {
+    left: 22px;
+    gap: 6px;
+  }
+  .main_input_tel .selected_flag img {
+    width: 6.7px;
+    height: auto;
+  }
+  .main_input_tel .selected_flag svg {
+    width: 3px;
+    height: auto;
+  }
+  .main_input_tel .main_input {
+    padding-left: 41px;
+    height: 22.74px;
+  }
+  .main_select__subtitle {
+    font-size: 6px;
+    margin-bottom: 5.28px;
+    margin-left: 27.11px;
+  }
+  .main_select__btn {
+    padding: 10px 22px;
+    gap: 6px;
+    height: 22.74px;
+  }
+  .main_select__btn span {
+    font-size: 10px;
+  }
+  .main_select__list {
+    padding: 10px 22px;
+  }
+  .main_select__list li {
+    font-size: 10px;
+  }
+  .main_select__list li:not(:last-child) {
+    padding-bottom: 6px;
+  }
+  .main_select__list li:not(:first-child) {
+    padding-top: 6px;
+  }
+  .main_input_money {
+    padding: 10px 22px;
+    font-size: 10px;
+    height: 22.74px;
+  }
+  .btn_golden {
+    height: 29.56px;
+    font-size: 8px;
+  }
+  .btn_dark {
+    height: 29.56px;
+    font-size: 8px;
   }
   .apartments_cards .card_item {
     padding: 23px 23px 30px;
@@ -1697,5 +1771,26 @@ footer .footer_bottom p {
   }
   .apartments {
     padding: 48px 0 71px;
+  }
+  .consultation {
+    padding: 48px 0 44px;
+  }
+  .consultation__form {
+    margin-top: 24px;
+  }
+  .consultation__form_img {
+    width: 188px;
+  }
+  .consultation__form_content .inputs {
+    gap: 22px;
+    margin-bottom: 22px;
+  }
+  .consultation__form p {
+    font-size: 6px;
+    width: 140px;
+    margin-bottom: 22px;
+  }
+  .consultation__form .buttons {
+    gap: 10.91px;
   }
 }/*# sourceMappingURL=style.css.map */
