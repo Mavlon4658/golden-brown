@@ -2547,6 +2547,9 @@ footer .footer_bottom p {
     width: 23px;
     height: auto;
   }
+  .animation_img img {
+    height: auto;
+  }
   header {
     padding-top: 21px;
   }
