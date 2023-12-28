@@ -84,8 +84,17 @@ document.addEventListener('click', (event) => {
 let apartments_card = document.querySelector('.apartments .apartments_cards')
 if (apartments_card) {
     apartements_slider = new Swiper(apartments_card, {
-        slidesPerView: 2.3,
-        spaceBetween: 48,
+        slidesPerView: 1.3,
+        spaceBetween: 22,
+        breakpoints: {
+            1300: {
+                slidesPerView: 2.3,
+            },
+            1150: {
+                slidesPerView: 2,
+                spaceBetween: 48,
+            },
+        }
     })
 
     let apartments_cards__ins = document.querySelectorAll('.apartments .apartments_cards__in');
