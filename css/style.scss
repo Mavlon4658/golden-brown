@@ -445,9 +445,13 @@ ul {
         -webkit-opacity: 0.5;
         opacity: 0.5;
         background: #F6C79C;
+        -webkit-filter: blur(100px);
+        -moz-filter: blur(100px);
         filter: blur(100px);
         top: 0;
         left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
         transform: translateX(-50%);
     }
 

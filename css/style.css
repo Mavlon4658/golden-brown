@@ -400,6 +400,7 @@ ul {
   -webkit-opacity: 0.5;
   opacity: 0.5;
   background: #F6C79C;
+  -moz-filter: blur(100px);
   filter: blur(100px);
   top: 0;
   left: 50%;
