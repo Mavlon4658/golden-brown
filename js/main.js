@@ -128,7 +128,7 @@ if (top_object_card) {
         spaceBetween: 22,
         breakpoints: {
             1300: {
-                slidesPerView: 2.3,
+                slidesPerView: 3,
             },
             1150: {
                 slidesPerView: 2,
