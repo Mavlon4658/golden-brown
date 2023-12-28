@@ -758,8 +758,8 @@ header .header_menu.no_active {
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
-  padding-top: 378px;
-  padding-bottom: 100px;
+  padding-top: 230px;
+  padding-bottom: 80px;
 }
 .home p {
   color: #FFF;
@@ -777,7 +777,7 @@ header .header_menu.no_active {
   font-weight: 300;
   line-height: normal;
   text-transform: uppercase;
-  margin-bottom: 174px;
+  margin-bottom: 80px;
 }
 .home a {
   animation: linkAnimation 3s ease infinite;
@@ -886,6 +886,7 @@ header .header_menu.no_active {
   position: relative;
   height: 500px;
   background: #424242;
+  overflow: hidden;
 }
 .approach_card__item img {
   width: 100%;
@@ -967,7 +968,7 @@ header .header_menu.no_active {
   stroke: #D2A276;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .approach_card .swiper-wrapper {
     display: flex;
     gap: 24px;
@@ -1220,7 +1221,7 @@ header .header_menu.no_active {
   margin-bottom: 100px;
 }
 .contact .main_container {
-  padding: 200px 0 441px;
+  padding: 200px 54px 441px;
   position: relative;
 }
 .contact .bg {
@@ -1434,6 +1435,22 @@ footer .footer_bottom p {
   opacity: 0.703;
 }
 
+@media only screen and (max-width: 1800px) {
+  .investments .bg_1 {
+    bottom: 32px;
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 1650px) {
+  .investments .bg_1 {
+    width: 600px;
+    bottom: 100px;
+  }
+  .investments .bg_2 {
+    bottom: 320px;
+    width: 200px;
+  }
+}
 @media only screen and (max-width: 1450px) {
   .consultation {
     position: relative;
@@ -1447,6 +1464,50 @@ footer .footer_bottom p {
     width: 100%;
     position: relative;
     padding-top: 0;
+  }
+  .investments .bg_1 {
+    width: 500px;
+    bottom: 150px;
+  }
+  .investments .bg_2 {
+    bottom: 700px;
+    width: 150px;
+  }
+  .investments p {
+    padding: 0px 30px;
+  }
+  .segment .counter_wrapper .bg_1 {
+    width: 500px;
+    left: 0;
+    top: 50%;
+    transform: translateX(0) translateY(-50%);
+  }
+  .segment .counter_wrapper .counter_top_block {
+    padding-left: 500px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .segment .counter_wrapper .counter_bottom_block {
+    flex-direction: column;
+    padding-left: 500px;
+    gap: 30px;
+  }
+  .example .card {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .example .card h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .example .card p {
+    max-width: 100%;
+    text-align: center;
+  }
+  .example .card_top {
+    margin-bottom: 122px;
+    width: 100%;
+    transform: translateX(0);
   }
 }
 @media only screen and (max-width: 1350px) {
@@ -1506,6 +1567,82 @@ footer .footer_bottom p {
   }
   .home_card__top {
     margin-bottom: 48px;
+  }
+  .segment .counter_wrapper .bg_1 {
+    width: 400px;
+  }
+  .contact .bg {
+    position: absolute;
+    right: -803px;
+    bottom: 580px;
+    height: 532px;
+    width: auto;
+    opacity: 0.1;
+  }
+  .contact_form {
+    width: 100%;
+  }
+  .contact_form_wrap {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .contact .text_block {
+    width: 100%;
+  }
+  footer .footer_top .left_block {
+    display: none;
+  }
+  footer .footer_top .right_block {
+    align-items: center;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .investments .bg_1 {
+    width: 400px;
+    bottom: 150px;
+  }
+  .investments .bg_2 {
+    bottom: 700px;
+    width: 100px;
+  }
+  .investments p {
+    padding: 0px 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .approach_card {
+    overflow: visible;
+  }
+  .approach_card .swiper-slide {
+    width: 342px;
+  }
+  .galerea .main_img {
+    width: calc(100% - 108px);
+    margin-left: 54px;
+    height: 600px;
+  }
+  .galerea .card_top {
+    transform: translateY(-8px);
+    padding: 0 38.08px;
+  }
+  .galerea .card_top img {
+    width: 50%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .galerea .card_top img:nth-child(1) {
+    transform: translateX(-8px);
+  }
+  .galerea .card_top img:nth-child(2) {
+    transform: translateX(8px);
+  }
+  .galerea .card_bottom {
+    width: calc(100% - 76.16px);
+    height: 200px;
+    transform: translateY(8px);
+    margin-left: 38.08px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -1792,5 +1929,310 @@ footer .footer_bottom p {
   }
   .consultation__form .buttons {
     gap: 10.91px;
+  }
+  .approach {
+    padding: 48px 0;
+  }
+  .approach .main_title {
+    margin-bottom: 24px;
+  }
+  .approach_card .swiper-slide {
+    width: 160px;
+  }
+  .approach_card__item {
+    height: 235px;
+    overflow: hidden;
+  }
+  .approach_card__item .description {
+    font-size: 8px;
+    padding: 21px;
+  }
+  .approach__link {
+    margin-top: 48.11px;
+    gap: 3.93px;
+  }
+  .approach__link span {
+    font-size: 8px;
+  }
+  .approach__link svg {
+    width: 20px;
+    height: auto;
+  }
+  .top_object {
+    padding: 48px 0;
+  }
+  .top_object .apartments_cards {
+    margin-top: 24px;
+  }
+  .top_object .apartments_cards .card_item .links {
+    gap: 11.69px;
+  }
+  .top_object .apartments_cards .card_item .links_item {
+    gap: 4.68px;
+  }
+  .top_object .apartments_cards .card_item .links_item span {
+    font-size: 8px;
+  }
+  .top_object .apartments_cards .card_item .links_item svg {
+    width: 23px;
+    height: auto;
+  }
+  .galerea .main_title {
+    margin-bottom: 24px;
+  }
+  .galerea .main_img {
+    height: 181px;
+  }
+  .galerea .card_top {
+    transform: translateY(-4px);
+  }
+  .galerea .card_top img {
+    height: 68px;
+  }
+  .galerea .card_top img:nth-child(1) {
+    transform: translateX(-4px);
+  }
+  .galerea .card_top img:nth-child(2) {
+    transform: translateX(4px);
+  }
+  .galerea .card_bottom {
+    height: 86px;
+    transform: translateY(8px);
+    margin-left: 38.08px;
+    margin-top: -4px;
+  }
+  .investments {
+    padding: 71px 0 48px;
+  }
+  .investments .bg_1 {
+    width: 235px;
+    bottom: 43px;
+    left: -73px;
+  }
+  .investments .bg_2 {
+    bottom: 190px;
+    width: 60px;
+  }
+  .investments p {
+    padding: 0px 30px;
+    font-size: 8px;
+    margin: 14px 0 24px;
+  }
+  .investments .text_block {
+    max-width: 100%;
+    margin: 0 auto;
+    transform: translateX(0);
+  }
+  .investments .text_block .title {
+    font-size: 8px;
+    margin-bottom: 4px;
+    padding-left: 119px;
+  }
+  .investments .text_block ul {
+    gap: 4px;
+    margin-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 119px;
+  }
+  .investments .text_block ul li {
+    font-size: 8px;
+    padding-left: 7px;
+  }
+  .investments .text_block ul li::before {
+    width: 3px;
+    height: 3px;
+  }
+  .investments .text_block .btns {
+    gap: 10.91px;
+  }
+  .investments .text_block .btns a {
+    width: 100%;
+  }
+  .segment {
+    padding-bottom: 48px;
+  }
+  .segment .main_title {
+    margin-bottom: 24px;
+  }
+  .segment .counter_wrapper .bg_1 {
+    width: 241px;
+    left: -44px;
+    top: 50%;
+    transform: translateX(0) translateY(-50%);
+  }
+  .segment .counter_wrapper .counter_top_block {
+    padding-left: 140px;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .segment .counter_wrapper .counter_bottom_block {
+    flex-direction: column-reverse;
+    padding-left: 140px;
+    gap: 8px;
+  }
+  .segment .counter_wrapper .name {
+    font-size: 21.43px;
+    margin-bottom: 4px;
+  }
+  .segment .counter_wrapper .name .small {
+    font-size: 16px;
+  }
+  .segment .counter_wrapper .description {
+    font-size: 8px;
+  }
+  .segment .btns {
+    margin-top: 24px;
+    gap: 10.91px;
+  }
+  .example {
+    padding: 48px 0;
+  }
+  .example .main_title {
+    margin-bottom: 40.96px;
+  }
+  .example .card {
+    gap: 34px;
+  }
+  .example .card .animation_img {
+    width: 100%;
+  }
+  .example .card .animation_img img {
+    width: 100%;
+  }
+  .example .card h2 {
+    font-size: 36px;
+    margin-bottom: 4px;
+    text-align: left;
+  }
+  .example .card p {
+    font-size: 10px;
+    text-align: left;
+  }
+  .example .card_top {
+    margin-bottom: 40px;
+  }
+  .contact .main_container {
+    padding: 48px 54px;
+  }
+  .contact .main_title {
+    margin-bottom: 24px;
+  }
+  .contact .text_block .title {
+    font-size: 8px;
+    max-width: 149px;
+    margin-bottom: 8px;
+  }
+  .contact .text_block ul {
+    gap: 8px;
+  }
+  .contact .text_block ul li {
+    font-size: 8px;
+    padding-left: 7px;
+  }
+  .contact .text_block ul li::before {
+    width: 3px;
+    height: 3px;
+  }
+  .contact .bg {
+    right: -348px;
+    bottom: 118px;
+    height: 247px;
+  }
+  .contact_form {
+    width: 100%;
+    gap: 22px;
+  }
+  .contact_form_wrap {
+    gap: 24px;
+  }
+  .contact_form .btn_golden {
+    width: 100%;
+  }
+  .contact_form .description {
+    font-size: 6px;
+    width: 139px;
+  }
+  .contact .text_block {
+    width: 100%;
+  }
+  .working {
+    padding-bottom: 11.59px;
+  }
+  .working .bg {
+    left: -63px;
+    width: calc(100% + 79px);
+    height: 225px;
+  }
+  .working .main_title {
+    margin-bottom: 12px;
+  }
+  .working .title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .working .description {
+    font-size: 8px;
+    margin-bottom: 8px;
+    max-width: 147px;
+  }
+  .working .description.first {
+    font-style: italic;
+    max-width: 152px;
+    font-weight: 400;
+  }
+  .working .description.last {
+    margin-bottom: 0;
+    max-width: 147px;
+  }
+  .working .links {
+    flex-direction: column;
+    position: absolute;
+    right: 29px;
+    bottom: 40px;
+    gap: 8px;
+  }
+  .working .links a {
+    height: 8px;
+  }
+  .working .links a img {
+    width: 8px;
+    height: auto;
+  }
+  footer {
+    padding: 25px 0;
+  }
+  footer .footer_top {
+    margin-bottom: 21px;
+  }
+  footer .footer_top .right_block {
+    gap: 21px;
+  }
+  footer .footer_top .right_block .btn_golden {
+    width: 155.5px;
+  }
+  footer .footer_top .right_block .description {
+    font-size: 6px;
+    width: 139px;
+  }
+  footer .footer_top .right_block .links {
+    gap: 22px;
+  }
+  footer .footer_top .right_block .links a {
+    height: 8px;
+  }
+  footer .footer_top .right_block .links a img {
+    width: 8px;
+    height: auto;
+  }
+  footer .footer_bottom {
+    gap: 4px;
+  }
+  footer .footer_bottom img {
+    width: 50px;
+    height: auto;
+  }
+  footer .footer_bottom p {
+    font-size: 4px;
   }
 }/*# sourceMappingURL=style.css.map */

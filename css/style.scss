@@ -871,8 +871,8 @@ header {
         align-items: center;
         justify-content: flex-end;
         flex-direction: column;
-        padding-top: 378px;
-        padding-bottom: 100px;
+        padding-top: 230px;
+        padding-bottom: 80px;
     }
 
     p {
@@ -892,7 +892,7 @@ header {
         font-weight: 300;
         line-height: normal;
         text-transform: uppercase;
-        margin-bottom: 174px;
+        margin-bottom: 80px;
     }
 
     a {
@@ -1028,6 +1028,7 @@ header {
             position: relative;
             height: 500px;
             background: #424242;
+            overflow: hidden;
             
             img {
                 width: 100%;
@@ -1131,7 +1132,7 @@ header {
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
     .approach {
         &_card {
             .swiper-wrapper {
@@ -1453,7 +1454,7 @@ header {
     }
     
     .main_container {
-        padding: 200px 0 441px;
+        padding: 200px 54px 441px;
         position: relative;
     }
     

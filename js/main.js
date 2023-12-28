@@ -124,8 +124,17 @@ if (apartments_card) {
 let top_object_card = document.querySelector('.top_object .apartments_cards')
 if (top_object_card) {
     top_object_slider = new Swiper(top_object_card, {
-        slidesPerView: 2.3,
-        spaceBetween: 48,
+        slidesPerView: 1.3,
+        spaceBetween: 22,
+        breakpoints: {
+            1300: {
+                slidesPerView: 2.3,
+            },
+            1150: {
+                slidesPerView: 2,
+                spaceBetween: 48,
+            },
+        }
     })
 
     let top_objects = document.querySelectorAll('.top_object .apartments_cards__in');
@@ -190,12 +199,12 @@ let approach_card = document.querySelector('.approach .approach_card');
 
 if (approach_card) {
     function swiperCard() {
-        if (window.innerWidth <= 992) {
+        if (window.innerWidth <= 1200) {
             if (!init) {
                 init = true;
                 approach_card_slider = new Swiper(approach_card, {
                     slidesPerView: 'auto',
-                    spaceBetween: 18,
+                    spaceBetween: 11.28,
                     scrollbar: {
                         el: ".catalog_card__paginate",
                     },
