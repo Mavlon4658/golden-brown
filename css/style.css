@@ -454,7 +454,10 @@ ul {
   -moz-opacity: 0;
   -webkit-opacity: 0;
   opacity: 0;
-  animation: borderAnimation 1.8s linear infinite;
+  animation-name: borderAnimation;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .animation_img span:nth-child(2) {
   animation-delay: 0.6s;
@@ -832,6 +835,7 @@ header .header_menu.no_active {
   padding: 80px 0;
 }
 .home_card__top {
+  -webkit-display: flex;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -845,6 +849,7 @@ header .header_menu.no_active {
   max-width: 586px;
 }
 .home_card__bottom {
+  -webkit-display: flex;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1262,8 +1267,6 @@ header .header_menu.no_active {
 }
 .example .card_top {
   margin-bottom: 100px;
-  width: calc(100% + 180px);
-  transform: translateX(-180px);
 }
 
 .contact .main_title {
