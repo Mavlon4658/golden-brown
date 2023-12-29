@@ -81,24 +81,24 @@ document.addEventListener('click', (event) => {
 })
 
 
-let animations = document.querySelectorAll('.animation_img') 
-if (animations.length) {
-    animations.forEach(animation => {
-        let spans = animation.querySelectorAll('span');
-        setTimeout(() => {
-            addAnimation(spans[0])
-        }, 0);
-        setTimeout(() => {
-            addAnimation(spans[1])
-        }, 600);
-        setTimeout(() => {
-            addAnimation(spans[2])
-        }, 1200);
-        setTimeout(() => {
-            addAnimation(spans[3])
-        }, 1800);
-    })
-}
+// let animations = document.querySelectorAll('.animation_img') 
+// if (animations.length) {
+//     animations.forEach(animation => {
+//         let spans = animation.querySelectorAll('span');
+//         setTimeout(() => {
+//             addAnimation(spans[0])
+//         }, 0);
+//         setTimeout(() => {
+//             addAnimation(spans[1])
+//         }, 600);
+//         setTimeout(() => {
+//             addAnimation(spans[2])
+//         }, 1200);
+//         setTimeout(() => {
+//             addAnimation(spans[3])
+//         }, 1800);
+//     })
+// }
 
 function addAnimation (span) {
     let cls = ['animate0', 'animate1', 'animate2', 'animate3'];
