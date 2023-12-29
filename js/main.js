@@ -57,7 +57,6 @@ if (main_selects.length) {
 
 const target = document.querySelector('header .lang')
 
-
 document.addEventListener('click', (event) => {
     const withinBoundaries = event.composedPath().includes(target)
 
@@ -80,6 +79,42 @@ document.addEventListener('click', (event) => {
         })
     }
 })
+
+
+let animations = document.querySelectorAll('.animation_img') 
+if (animations.length) {
+    animations.forEach(animation => {
+        let spans = animation.querySelectorAll('span');
+        setTimeout(() => {
+            addAnimation(spans[0])
+        }, 0);
+        setTimeout(() => {
+            addAnimation(spans[1])
+        }, 600);
+        setTimeout(() => {
+            addAnimation(spans[2])
+        }, 1200);
+        setTimeout(() => {
+            addAnimation(spans[3])
+        }, 1800);
+    })
+}
+
+function addAnimation (span) {
+    let cls = ['animate0', 'animate1', 'animate2', 'animate3'];
+    let i = -1;
+    setInterval(() => {
+        i++;
+        for (let j = 0; j < 4; j++) {
+            span.classList.remove(cls[j]);
+        }
+        span.classList.add(cls[i]);
+
+        if (i == 3) {
+            i = -1
+        }
+    }, 600);
+}
 
 let apartments_card = document.querySelector('.apartments .apartments_cards')
 if (apartments_card) {
