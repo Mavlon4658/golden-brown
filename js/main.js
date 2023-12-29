@@ -100,6 +100,7 @@ document.addEventListener('click', (event) => {
 //     })
 // }
 
+
 function addAnimation (span) {
     let cls = ['animate0', 'animate1', 'animate2', 'animate3'];
     let i = -1;
